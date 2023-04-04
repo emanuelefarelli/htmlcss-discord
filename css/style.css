@@ -66,6 +66,10 @@ body{
     font-size: 1.3rem;
 }
 
+.smaller-txt{
+    font-size: 1.2rem;
+}
+
 .center-txt{
     text-align: center;
 }
@@ -84,6 +88,10 @@ body{
 
 .darkTxt{
     color: #232729;
+}
+
+.blue-txt{
+    color: #8ea1e1;
 }
 
 .white-bt{
@@ -243,9 +251,23 @@ hr{
 }
 
 .first-footer{
-    height: 650px;
+    height: 500px;
     padding-top: 10px;
     justify-content: center;
+}
+
+.darkpink h4,
+.darkpink span{
+    padding: 1.5rem 0;
+}
+
+.darkpink h4{
+    font-size: 2.2rem;
+}
+
+.darkpink img{
+    vertical-align: middle;
+    height: 1rem;
 }
 
 .first-footer>div{
@@ -254,36 +276,54 @@ hr{
 
 .darkpink{
     width: 30%;
-    background-color: #f08080;
 }
 
 .columns{
     width: 70%;
-    background-color: #20b2aa;
 }
 
 div.columns>div{
-    border: white 2px dashed;
     width: calc(100% / 4);
 }
 
+.columns ul{
+    list-style-type: none;
+    margin-top: 1.7rem;
+}
+
+.columns li{
+    padding: 0.3rem 0;
+    cursor: pointer;
+}
+
+footer>div{
+    width: 60%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #8ea1e1;    
+}
+
 .last-footer{
-    height: 4rem;
+    height: 9rem;
     justify-content: center;
-    align-items: flex-end;
-    background-color: #23272a;
+    /* align-items: center; */
+    padding-top: 2rem;
 }
 
 .lightgreen{
     height: 3rem;
-    background-color: #7fffd4;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-footer,
-.button{
+.logo-footer{
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 15%;
+}
+
+/* .button{
     height: 1.8rem;
     padding: 0.5rem;
-    background-color: #ffb6c1;   
-}
+} */
