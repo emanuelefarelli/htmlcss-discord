@@ -1,0 +1,237 @@
+
+/* -----------GENERAL--------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+clearfix::after{
+    content: "";
+    display: table;       
+    clear: both;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+}
+
+.dim{
+    width: 60%;
+    height: 450px;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.border{
+    border: black 2px dashed;
+}
+
+.bt-small{
+    border-radius: 20px;
+    border: none;
+    padding: 0.6rem 0.7rem;
+    cursor: pointer;
+}
+
+.bt-medium{
+    border-radius: 30px;
+    border: none;
+    padding: 1rem 1.4rem;
+    cursor: pointer;
+}
+
+.container-dim{
+    height: 550px;
+}
+
+.big-txt{
+    font-size: 4rem;
+}
+
+.medium-txt{
+    font-size: 1.8rem;
+}
+
+.small-txt{
+    font-size: 1.3rem;
+}
+
+.center-txt{
+    text-align: center;
+}
+
+.whiteTxt{
+    color: white;
+}
+
+
+.darkTxt{
+    color: #232729;
+}
+
+.white-bt{
+    background-color: white;
+    color: #232729;
+}
+
+.dark-bt{
+    background-color: #232729;
+    color: white;
+}
+
+
+
+
+/* --------------HEADER---------------- */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.top-header,
+nav{
+    width: 60%;
+}
+
+header>div{
+    height: 5rem;   
+}
+
+ul{
+    list-style-type: none;
+    width: 80%;
+    justify-content: space-around;
+}
+
+header li{
+    color: white;
+    cursor: pointer;
+}
+
+.logo,
+.login{
+    width: 20%;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.login{
+    justify-content: flex-end;
+}
+
+.header-bottom{
+    height: 530px;
+}
+
+.header-bottom > div{
+    width: 1000px;
+    height: 350px;
+}
+
+.header-bottom p{
+    padding: 2rem 5.5rem;
+    line-height: 2rem;
+}
+
+.header-bottom nav{
+    width: 100%;
+}
+
+.header-bottom button{
+    margin: 0 1rem;
+}
+
+/* ---------MAIN------------*/
+
+.skyblue-box{
+    width: 60%;
+    background-color: #1e90ff;
+
+}
+
+.lightpink-box{
+    width: 40%;
+    background-color: #ffc0cb;
+}
+
+.gray{
+    background-color: #d3d3d3;
+}
+
+.reverse-row{
+    flex-direction: row-reverse;
+}
+
+.big{
+    height: 900px;
+}
+
+.green{
+    background-color: #228b22;
+    height: 800px;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+hr{
+    background-color: white;
+}
+
+.first-footer{
+    height: 650px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.first-footer>div{
+    height: 600px;
+}
+
+.darkpink{
+    width: 30%;
+    background-color: #f08080;
+}
+
+.columns{
+    width: 70%;
+    background-color: #20b2aa;
+}
+
+div.columns>div{
+    border: white 2px dashed;
+    width: calc(100% / 4);
+}
+
+.last-footer{
+    height: 4rem;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #23272a;
+}
+
+.lightgreen{
+    height: 3rem;
+    background-color: #7fffd4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer,
+.button{
+    height: 1.8rem;
+    padding: 0.5rem;
+    background-color: #ffb6c1;   
+}
